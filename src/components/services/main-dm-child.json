@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_services_main_dm_children",
+  "info": {
+    "displayName": "MainDmChild"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "subHeading": {
+      "type": "text"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "contentTitle": {
+      "type": "string"
+    },
+    "contentParagraphs": {
+      "displayName": "ContentPara",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.content-para"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

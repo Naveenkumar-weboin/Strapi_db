@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_main_counts",
+  "info": {
+    "displayName": "mainCount",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    },
+    "static": {
+      "type": "string"
+    },
+    "hoverColor": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "decimal"
+    }
+  }
+}

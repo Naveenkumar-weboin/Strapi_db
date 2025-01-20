@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_us_our_process_mains",
+  "info": {
+    "displayName": "OurProcessMain",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Process": {
+      "displayName": "Process",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-process.process"
+    },
+    "Mainimg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

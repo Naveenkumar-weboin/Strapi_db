@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_services_digital_marketings",
+  "info": {
+    "displayName": "Digital Marketing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.title"
+    },
+    "SecDm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.sec-dm"
+    },
+    "MainDm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.main-dm"
+    },
+    "Testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.testimonial"
+    },
+    "getintouch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.get-in-touch"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

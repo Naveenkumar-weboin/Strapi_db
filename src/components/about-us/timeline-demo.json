@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_timeline_demos",
+  "info": {
+    "displayName": "TimelineDemo"
+  },
+  "options": {},
+  "attributes": {
+    "timelinedata": {
+      "displayName": "TimeLineData",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.time-line-data"
+    }
+  }
+}

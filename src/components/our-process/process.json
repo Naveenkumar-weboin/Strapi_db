@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_our_process_processes",
+  "info": {
+    "displayName": "Process",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "percentage": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    },
+    "imgSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

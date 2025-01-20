@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_about_us_employee_mains",
+  "info": {
+    "displayName": "EmployeeMain"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    },
+    "span2": {
+      "type": "string"
+    },
+    "span3": {
+      "type": "string"
+    },
+    "imgSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "span4": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    }
+  }
+}

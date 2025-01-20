@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_about_us_time_line_paras",
+  "info": {
+    "displayName": "TimeLinePara"
+  },
+  "options": {},
+  "attributes": {
+    "para": {
+      "type": "text"
+    }
+  }
+}

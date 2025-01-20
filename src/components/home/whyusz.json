@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_whyuszs",
+  "info": {
+    "displayName": "Whyusz"
+  },
+  "options": {},
+  "attributes": {
+    "WhyuszTitle": {
+      "type": "string"
+    },
+    "WhyuszPara": {
+      "type": "text"
+    },
+    "WhyuszImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "whyuszData": {
+      "displayName": "WhyuszData",
+      "type": "component",
+      "repeatable": true,
+      "component": "whyusz.whyusz-data"
+    }
+  }
+}

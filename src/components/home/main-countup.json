@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_main_countups",
+  "info": {
+    "displayName": "MainCountup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MainTitle": {
+      "type": "string"
+    },
+    "mainCountup": {
+      "displayName": "mainCount",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.main-count"
+    }
+  }
+}

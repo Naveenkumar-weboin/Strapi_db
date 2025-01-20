@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_us_employee_lists",
+  "info": {
+    "displayName": "EmployeeList"
+  },
+  "options": {},
+  "attributes": {
+    "span1": {
+      "type": "string"
+    },
+    "span2": {
+      "type": "string"
+    },
+    "span3": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    },
+    "Employee": {
+      "displayName": "Employee",
+      "type": "component",
+      "repeatable": true,
+      "component": "employee-list.employee"
+    }
+  }
+}

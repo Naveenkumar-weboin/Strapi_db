@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_map_icons",
+  "info": {
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "IconTitle": {
+      "type": "string"
+    },
+    "ContentX": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.reusable-icon-content"
+    }
+  }
+}

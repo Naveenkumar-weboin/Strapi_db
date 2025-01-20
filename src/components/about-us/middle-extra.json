@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_about_us_middle_extras",
+  "info": {
+    "displayName": "MiddleExtra",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "para1": {
+      "type": "text"
+    },
+    "para2": {
+      "type": "text"
+    },
+    "text": {
+      "type": "string"
+    },
+    "content1": {
+      "type": "text"
+    },
+    "content2": {
+      "type": "text"
+    },
+    "content3": {
+      "type": "text"
+    },
+    "content4": {
+      "type": "text"
+    },
+    "imgSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

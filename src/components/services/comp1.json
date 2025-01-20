@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_services_comp1s",
+  "info": {
+    "displayName": "Comp1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SecDmChild": {
+      "displayName": "SecDmChild",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.sec-dm-child"
+    }
+  }
+}

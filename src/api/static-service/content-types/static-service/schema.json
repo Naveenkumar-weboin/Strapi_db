@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "static_services",
+  "info": {
+    "singularName": "static-service",
+    "pluralName": "static-services",
+    "displayName": "StaticService",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Components": {
+      "displayName": "Digital Marketing",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.digital-marketing"
+    },
+    "ComponentName": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "ComponentName"
+    }
+  }
+}

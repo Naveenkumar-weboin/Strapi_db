@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_us_moving_tags",
+  "info": {
+    "displayName": "MovingTag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MovingText": {
+      "displayName": "MovingText",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.moving-text"
+    }
+  }
+}

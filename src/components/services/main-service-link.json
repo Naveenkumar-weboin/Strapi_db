@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_services_main_service_links",
+  "info": {
+    "displayName": "MainServiceLink"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    }
+  }
+}

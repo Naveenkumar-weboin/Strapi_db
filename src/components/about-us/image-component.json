@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_image_components",
+  "info": {
+    "displayName": "ImageComponent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "details": {
+      "displayName": "details",
+      "type": "component",
+      "repeatable": true,
+      "component": "image-component.details"
+    }
+  }
+}

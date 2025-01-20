@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "create_career_inputs",
+  "info": {
+    "singularName": "create-career-input",
+    "pluralName": "create-career-inputs",
+    "displayName": "CreateCareerInput"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CareerInput": {
+      "type": "json"
+    }
+  }
+}

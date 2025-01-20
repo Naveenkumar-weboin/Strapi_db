@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_rollings",
+  "info": {
+    "displayName": "Rolling",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "RollingTitle": {
+      "type": "string"
+    },
+    "RollingDescription": {
+      "type": "text"
+    },
+    "RollingImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

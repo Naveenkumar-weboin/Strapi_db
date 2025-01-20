@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_about_us_time_line_points",
+  "info": {
+    "displayName": "TimeLinePoints"
+  },
+  "options": {},
+  "attributes": {
+    "points": {
+      "type": "text"
+    }
+  }
+}

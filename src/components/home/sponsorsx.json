@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_sponsorsxes",
+  "info": {
+    "displayName": "Sponsorsx"
+  },
+  "options": {},
+  "attributes": {
+    "Sponsorsxtitle": {
+      "type": "string"
+    },
+    "Sponsorsxpara": {
+      "type": "text"
+    },
+    "Sponsorsximages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

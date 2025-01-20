@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_main_services",
+  "info": {
+    "displayName": "MainService"
+  },
+  "options": {},
+  "attributes": {
+    "MainText": {
+      "type": "string"
+    },
+    "MainServiceLink": {
+      "displayName": "MainServiceLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.main-service-link"
+    }
+  }
+}

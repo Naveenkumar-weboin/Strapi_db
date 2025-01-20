@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_services_swift_loadings",
+  "info": {
+    "displayName": "SwiftLoading"
+  },
+  "options": {},
+  "attributes": {
+    "MainText": {
+      "type": "string"
+    },
+    "SpeedScore": {
+      "type": "integer"
+    },
+    "SpeedScoreText": {
+      "type": "string"
+    },
+    "MetricsScoreText": {
+      "type": "string"
+    },
+    "MetricsScore": {
+      "type": "integer"
+    }
+  }
+}

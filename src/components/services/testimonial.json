@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_services_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TestimonialChild": {
+      "displayName": "TestimonialChild",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.testimonial-child"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_mains",
+  "info": {
+    "singularName": "portfolio-main",
+    "pluralName": "portfolio-mains",
+    "displayName": "PortfolioMain"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Portfolio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.port"
+    }
+  }
+}

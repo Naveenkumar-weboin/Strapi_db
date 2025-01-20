@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_card_animes",
+  "info": {
+    "displayName": "CardAnime"
+  },
+  "options": {},
+  "attributes": {
+    "CardTitle": {
+      "type": "string"
+    },
+    "cardData": {
+      "displayName": "CardData",
+      "type": "component",
+      "repeatable": true,
+      "component": "card-anime.card-data"
+    }
+  }
+}

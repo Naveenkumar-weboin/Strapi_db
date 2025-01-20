@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_services_sec_dms",
+  "info": {
+    "displayName": "SecDm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SecDmChild": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.sec-dm-child"
+    }
+  }
+}

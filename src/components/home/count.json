@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_counts",
+  "info": {
+    "displayName": "Count",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CountTitle": {
+      "type": "string"
+    },
+    "CountSubtitle": {
+      "type": "text"
+    },
+    "CountPara": {
+      "type": "text"
+    },
+    "countservices": {
+      "displayName": "CountServices",
+      "type": "component",
+      "repeatable": true,
+      "component": "count.count-services"
+    },
+    "CountImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

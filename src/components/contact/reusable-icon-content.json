@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_contact_reusable_icon_contents",
+  "info": {
+    "displayName": "ReusableIconContent"
+  },
+  "options": {},
+  "attributes": {
+    "IconContent": {
+      "type": "text"
+    }
+  }
+}

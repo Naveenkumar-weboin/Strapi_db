@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_services_get_in_touches",
+  "info": {
+    "displayName": "GetInTouch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "getintouch": {
+      "type": "text"
+    }
+  }
+}

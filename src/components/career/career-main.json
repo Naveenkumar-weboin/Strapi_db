@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_career_career_mains",
+  "info": {
+    "displayName": "CareerMain"
+  },
+  "options": {},
+  "attributes": {
+    "CoverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "MainTitle": {
+      "type": "string"
+    }
+  }
+}

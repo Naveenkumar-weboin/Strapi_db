@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_why_choose_us_provided_services",
+  "info": {
+    "displayName": "ProvidedServices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imgSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "string"
+    }
+  }
+}

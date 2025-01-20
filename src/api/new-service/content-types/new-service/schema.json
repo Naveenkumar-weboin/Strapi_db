@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_services",
+  "info": {
+    "singularName": "new-service",
+    "pluralName": "new-services",
+    "displayName": "NewService",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ServiceData": {
+      "type": "json"
+    },
+    "ServiceReusable": {
+      "displayName": "ServiceResusable",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.service-resusable"
+    },
+    "SwiftLoading": {
+      "displayName": "SwiftLoading",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.swift-loading"
+    }
+  }
+}

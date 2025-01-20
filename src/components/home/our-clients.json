@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_our_clients",
+  "info": {
+    "displayName": "OurClients"
+  },
+  "options": {},
+  "attributes": {
+    "OurClientTitle": {
+      "type": "string"
+    },
+    "OurClientPara": {
+      "type": "text"
+    },
+    "MainImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ClientsImgSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

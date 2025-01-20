@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_portfolio_ports",
+  "info": {
+    "displayName": "PORT",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MobileSize": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PcSize": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Header": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "openBtn": {
+      "type": "string"
+    },
+    "closeBtn": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_services_sec_service_linkzs",
+  "info": {
+    "displayName": "SecServiceLinkz",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icons": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ServiceTitle": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "text"
+    },
+    "dataCategory": {
+      "type": "string"
+    },
+    "dataAction": {
+      "type": "string"
+    },
+    "dataLabel": {
+      "type": "string"
+    }
+  }
+}

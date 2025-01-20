@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_herovideos",
+  "info": {
+    "displayName": "Herovideo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "herovidetitle": {
+      "type": "string"
+    },
+    "herovidesrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

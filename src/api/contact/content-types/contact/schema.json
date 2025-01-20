@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InputCreation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.input-creation"
+    },
+    "MapIcons": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Map": {
+      "displayName": "Maps",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.maps"
+    },
+    "ContactText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact-text"
+    },
+    "IconContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.map-icons"
+    }
+  }
+}

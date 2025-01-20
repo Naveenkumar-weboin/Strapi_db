@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "footerz": {
+      "displayName": "footermain",
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footermain"
+    }
+  }
+}

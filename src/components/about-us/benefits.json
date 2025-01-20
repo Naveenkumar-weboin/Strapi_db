@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_about_us_benefits",
+  "info": {
+    "displayName": "Benefits",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "span1": {
+      "type": "string"
+    },
+    "span2": {
+      "type": "string"
+    },
+    "span3": {
+      "type": "string"
+    },
+    "span4": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    },
+    "imgSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title2": {
+      "type": "string"
+    },
+    "para2": {
+      "type": "text"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benefits.benefit"
+    }
+  }
+}

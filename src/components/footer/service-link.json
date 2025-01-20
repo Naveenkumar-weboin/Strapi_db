@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_service_links",
+  "info": {
+    "displayName": "ServiceLink"
+  },
+  "options": {},
+  "attributes": {
+    "servicename": {
+      "type": "string"
+    },
+    "serviceurl": {
+      "type": "string"
+    }
+  }
+}

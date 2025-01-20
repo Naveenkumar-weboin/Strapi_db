@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_service_xes",
+  "info": {
+    "displayName": "ServiceX"
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "displayName": "Services",
+      "type": "component",
+      "repeatable": true,
+      "component": "service-x.services"
+    }
+  }
+}

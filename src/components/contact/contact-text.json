@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_contact_texts",
+  "info": {
+    "displayName": "ContactText"
+  },
+  "options": {},
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    },
+    "MainText": {
+      "type": "text"
+    },
+    "SubText": {
+      "type": "text"
+    }
+  }
+}

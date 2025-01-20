@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_services_services",
+  "info": {
+    "displayName": "AllServices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "colSpan": {
+      "type": "integer"
+    }
+  }
+}

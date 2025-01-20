@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "herosection": {
+      "displayName": "herosection",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.herosection"
+    },
+    "herovideo": {
+      "displayName": "Herovideo",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.herovideo"
+    },
+    "sponsorsx": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.sponsorsx"
+    },
+    "mainCountup": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.main-countup"
+    },
+    "counts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.count"
+    },
+    "whyChooseUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.why-choose-us"
+    },
+    "whyusz": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.whyusz"
+    },
+    "rolling": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.rolling"
+    },
+    "testimonial": {
+      "displayName": "testimonial",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.testimonial"
+    },
+    "ourClients": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.our-clients"
+    },
+    "cardAnime": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.card-anime"
+    },
+    "servicex": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.service-x"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.faq"
+    },
+    "growyourbusiness": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.grow-your-business"
+    },
+    "socialmedia": {
+      "displayName": "SocialMedia",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.social-media"
+    }
+  }
+}

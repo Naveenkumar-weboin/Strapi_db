@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_faqs",
+  "info": {
+    "displayName": "Faq"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "subpara": {
+      "type": "text"
+    },
+    "faqsData": {
+      "displayName": "faqsData",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faqs-data"
+    }
+  }
+}

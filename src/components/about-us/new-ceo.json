@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_about_us_new_ceos",
+  "info": {
+    "displayName": "NewCEO"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "CeoName": {
+      "type": "string"
+    },
+    "CeoImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_services_content_paras",
+  "info": {
+    "displayName": "ContentPara"
+  },
+  "options": {},
+  "attributes": {
+    "Paragraphs": {
+      "type": "string"
+    }
+  }
+}

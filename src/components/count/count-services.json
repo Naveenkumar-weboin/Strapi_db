@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_count_count_services",
+  "info": {
+    "displayName": "CountServices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Services": {
+      "type": "string"
+    },
+    "CountIcons": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

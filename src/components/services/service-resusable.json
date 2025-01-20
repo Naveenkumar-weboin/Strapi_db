@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_services_service_resusables",
+  "info": {
+    "displayName": "ServiceResusable",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ServiceReusableIcons": {
+      "displayName": "ServiceReusableIcons",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.service-reusable-icons"
+    },
+    "ServiceReusableBg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

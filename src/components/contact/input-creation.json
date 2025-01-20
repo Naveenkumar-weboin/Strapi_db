@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_contact_input_creations",
+  "info": {
+    "displayName": "InputCreation"
+  },
+  "options": {},
+  "attributes": {
+    "Input": {
+      "type": "json"
+    }
+  }
+}

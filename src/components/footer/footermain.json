@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_footer_footermains",
+  "info": {
+    "displayName": "footermain",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Tittlez": {
+      "type": "string"
+    },
+    "bgimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Serviceslink": {
+      "displayName": "ServiceLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.service-link"
+    },
+    "Quicklink": {
+      "displayName": "quickLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.quick-link"
+    },
+    "socialmedia": {
+      "displayName": "SocialMedia",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.social-media"
+    },
+    "copyrightText": {
+      "type": "string"
+    },
+    "firstlinkstitle": {
+      "type": "string"
+    },
+    "secondlinkstitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_services_data",
+  "info": {
+    "displayName": "Data",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "displayName": "Title",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.title"
+    },
+    "SecDm": {
+      "displayName": "Comp1",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.comp1"
+    },
+    "MainDm": {
+      "displayName": "MainDm",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.main-dm"
+    },
+    "Testimonials": {
+      "displayName": "Testimonial",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.testimonial"
+    },
+    "getintouch": {
+      "displayName": "GetInTouch",
+      "type": "component",
+      "repeatable": false,
+      "component": "services.get-in-touch"
+    }
+  }
+}

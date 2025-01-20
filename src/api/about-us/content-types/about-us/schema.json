@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomeAbout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.home-about"
+    },
+    "MovingTag": {
+      "displayName": "MovingTag",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.moving-tag"
+    },
+    "Timelinedemo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.timeline-demo"
+    },
+    "AboutContentz": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.about-contentz"
+    },
+    "AboutContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.about-content"
+    },
+    "Benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.benefits"
+    },
+    "MiddleExtra": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.middle-extra"
+    },
+    "OurProcess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.our-process-main"
+    },
+    "ImageComponent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.image-component"
+    },
+    "NewCEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.new-ceo"
+    },
+    "EmployeeMain": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.employee-main"
+    },
+    "EmployeeList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.employee-list"
+    }
+  }
+}

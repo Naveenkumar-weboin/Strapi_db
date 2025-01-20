@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_sec_service_links",
+  "info": {
+    "displayName": "SecServiceLink"
+  },
+  "options": {},
+  "attributes": {
+    "Sectext": {
+      "type": "string"
+    },
+    "SecServiceLinkz": {
+      "displayName": "SecServiceLinkz",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.sec-service-linkz"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_career_career_xes",
+  "info": {
+    "displayName": "CareerX"
+  },
+  "options": {},
+  "attributes": {
+    "Maintext": {
+      "type": "string"
+    },
+    "Careerz": {
+      "type": "component",
+      "repeatable": true,
+      "component": "career.careers-data"
+    }
+  }
+}

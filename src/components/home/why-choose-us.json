@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_why_chooseuses",
+  "info": {
+    "displayName": "WhyChooseUs"
+  },
+  "options": {},
+  "attributes": {
+    "WhyChooseUsTitle": {
+      "type": "string"
+    },
+    "WhyChooseUsPara": {
+      "type": "text"
+    },
+    "provideservices": {
+      "displayName": "ProvidedServices",
+      "type": "component",
+      "repeatable": true,
+      "component": "why-choose-us.provided-services"
+    }
+  }
+}

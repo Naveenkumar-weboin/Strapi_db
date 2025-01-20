@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_career_careers_data",
+  "info": {
+    "displayName": "CareersData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "color": {
+      "type": "string"
+    },
+    "jobtype": {
+      "type": "string"
+    },
+    "workmode": {
+      "type": "string"
+    },
+    "workingdays": {
+      "type": "string"
+    },
+    "jobDescription": {
+      "type": "json"
+    },
+    "worktype": {
+      "type": "json"
+    },
+    "allJobData": {
+      "type": "json"
+    }
+  }
+}

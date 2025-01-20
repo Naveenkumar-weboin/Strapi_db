@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_about_us_home_abouts",
+  "info": {
+    "displayName": "HomeAbout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "highlightText": {
+      "type": "string"
+    },
+    "wrapedText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "para": {
+      "type": "text"
+    },
+    "imgSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Counts": {
+      "displayName": "Counts",
+      "type": "component",
+      "repeatable": true,
+      "component": "home-about.counts"
+    }
+  }
+}

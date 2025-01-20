@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_services_main_dms",
+  "info": {
+    "displayName": "MainDm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MainDmChild": {
+      "displayName": "MainDmChild",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.main-dm-child"
+    }
+  }
+}
