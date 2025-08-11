@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "headTitle": {
+    "HeadP1": {
       "type": "string"
     },
-    "subTitle1": {
+    "HeadP2": {
       "type": "string"
     },
-    "subtitle2": {
+    "HeadP3": {
       "type": "string"
     },
     "tweets": {
@@ -20,6 +20,9 @@
       "type": "component",
       "repeatable": true,
       "component": "home.testimonial-card"
+    },
+    "Description": {
+      "type": "text"
     }
   }
 }

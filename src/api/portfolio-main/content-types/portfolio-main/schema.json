@@ -4,7 +4,8 @@
   "info": {
     "singularName": "portfolio-main",
     "pluralName": "portfolio-mains",
-    "displayName": "PortfolioMain"
+    "displayName": "PortfolioMain",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,22 @@
       "type": "component",
       "repeatable": true,
       "component": "portfolio.port"
+    },
+    "Head": {
+      "type": "string"
+    },
+    "BGImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "text"
     }
   }
 }

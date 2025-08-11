@@ -627,6 +627,7 @@ export interface HomeRolling extends Struct.ComponentSchema {
     displayName: 'Rolling';
   };
   attributes: {
+    Logo: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     RollingDescription: Schema.Attribute.Text;
     RollingImg: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
@@ -684,9 +685,10 @@ export interface HomeTestimonial extends Struct.ComponentSchema {
     displayName: 'testimonial';
   };
   attributes: {
-    headTitle: Schema.Attribute.String;
-    subTitle1: Schema.Attribute.String;
-    subtitle2: Schema.Attribute.String;
+    Description: Schema.Attribute.Text;
+    HeadP1: Schema.Attribute.String;
+    HeadP2: Schema.Attribute.String;
+    HeadP3: Schema.Attribute.String;
     tweets: Schema.Attribute.Component<'home.testimonial-card', true>;
   };
 }

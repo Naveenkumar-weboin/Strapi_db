@@ -757,6 +757,7 @@ export interface ApiPortfolioMainPortfolioMain
   extends Struct.CollectionTypeSchema {
   collectionName: 'portfolio_mains';
   info: {
+    description: '';
     displayName: 'PortfolioMain';
     pluralName: 'portfolio-mains';
     singularName: 'portfolio-main';
@@ -765,9 +766,12 @@ export interface ApiPortfolioMainPortfolioMain
     draftAndPublish: true;
   };
   attributes: {
+    BGImage: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    Description: Schema.Attribute.Text;
+    Head: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
